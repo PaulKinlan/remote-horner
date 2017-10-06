@@ -1,0 +1,25 @@
+{
+  "name": "Remote-Air-horner",
+  "version": "0.0.1",
+  "description": "An app that integrates pubsubhubbub with RSS",
+  "main": "server.js",
+  "scripts": {
+    "start": "cp node_modules/comlinkjs/comlink.global.js public/scripts/comlink.js && cp node_modules/comlinkjs/messagechanneladapter.global.js public/scripts/messagechanneladapter.js  && node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "comlinkjs": "^2.0.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
